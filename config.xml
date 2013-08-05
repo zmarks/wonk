@@ -29,18 +29,16 @@
     <author
         email="info@wonkum.com"
         href="http://www.wonkum.com" >
-Wonkum Team, LLC    </author>
+Wonkum Team   </author>
 
     <access origin="*" />
 
-    <!-- <content src="http://mysite.com/myapp.html" /> for external pages -->
     <content src="index.html" />
 
 	<icon src="icon.png" />
   <!-- SPLASH SCREENS -->
-<gap:splash src="splash.png" />
 
-    <preference
+	<preference
         name="loglevel"
         value="DEBUG" />
     <!--
@@ -146,8 +144,8 @@ Wonkum Team, LLC    </author>
             name="android-package"
             value="org.apache.cordova.InAppBrowser" />
     </feature>
-    <!-- Deprecated plugins element. Remove in 3.0 
-    <plugins>
+    <!-- Deprecated plugins element. Remove in 3.0 -->
+    <!-- <plugins>
         <plugin
             name="VideoPlayer"
             value="com.phonegap.plugins.video.VideoPlayer" />
@@ -158,6 +156,6 @@ Wonkum Team, LLC    </author>
             name="Html5Video"
             value="org.apache.cordova.plugin.Html5Video" />
 		<plugin name="Storage" value="org.apache.cordova.Storage" />
-    </plugins>-->
+    </plugins> -->
 
 </widget>
